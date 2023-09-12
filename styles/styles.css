@@ -8,6 +8,9 @@
 
 body{
  background-color: rgb(37, 37, 37);
+ display: flex;
+ flex-direction: column;
+ align-items: center;
  
 }
 
@@ -19,8 +22,8 @@ body{
   /* flex-direction: row; */
   justify-content: center;
  
-  /* align-content: center; */
   /* text-align: center; */
+  /* align-content: center; */
   gap: 20px;
 }
 .menu a{
@@ -36,6 +39,7 @@ h1{
 
 /* styles tareas */
 .container{
+  width: 600px;
   padding-top: 20px;
   background-color: rgb(230, 228, 228);
   display: flex;
@@ -55,6 +59,7 @@ h1{
 .container-parrafo{
   padding-left: 10px;
   padding-right: 10px;
+  line-height: 25px;
   font-size: 20px;
   margin: 10px;
   text-align: justify;

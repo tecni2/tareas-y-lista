@@ -111,13 +111,13 @@ h1{
     width: 99%;
   }
   .container-video{
-    /* flex-wrap: nowrap; */
+    margin: 1px;
     align-items: center; /* Centrar verticalmente */
     flex-direction: column;
   }
   .container-video iframe {
     
-    width: 99%;
+    width: 100%;
     
   }
 }

@@ -111,14 +111,15 @@ h1 {
 
 @media screen and (max-width: 768px) {
   .container {
-    width: 99%;
+    width: 100%;
   }
   .container-video {
-    margin: 1px;
+    margin: 0px;
     align-items: center; /* Centrar verticalmente */
     flex-direction: column;
   }
-  .container-video iframe {
+
+  /* .container-video iframe {
     width: 100%;
-  }
+  } */
 }
